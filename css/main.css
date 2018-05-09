@@ -1,0 +1,311 @@
+/* font-family: 'Do Hyeon', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+*/
+
+/* .....top bar......*/
+.top-bar{
+	height: 60px;
+	color: #fff;
+	
+} 
+
+.divder{
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button){
+
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 60px;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section{
+	background-color: #000;
+}
+
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"]{
+	height: 60px;
+}
+
+.top-bar{
+	background-color: #000;
+}
+
+/* .....top bar......*/
+
+/* .....index......*/
+
+
+
+.headerhero {
+background-repeat: no-repeat;
+background-position: top center;
+height: 300px;
+background-image: url('../img/mock1.jpg');
+background-color: #fff;
+color: #fff;
+background-attachment: fixed;
+background-size: contain;
+}
+
+.new{
+	padding: 3rem 0;
+}
+
+.new h1{
+	text-align: center;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2rem;
+}
+
+.new h4 {
+	text-align: center;
+}
+
+.new p{
+	text-align: center;
+}
+
+.hero {
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 300px;
+background-image: url('../img/phone.jpg');
+background-color: #fff;
+color: #fff;
+background-attachment: fixed;
+}
+
+.footer {
+	height: 100px;
+	background-color: #0e0e0e;
+    bottom:0;
+}
+
+
+/*....... index.....*/
+
+
+.about h4{
+text-align: left;
+padding: 3rem 4rem 0 3rem;
+font-size: 1rem;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.product h1{
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.product h2{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.product p{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.related {
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/*****************/
+
+
+/*********** Witch ******/
+
+.witch{
+	background-color: #9b95a4;
+	text-align: center;
+
+}
+
+.witch h1{
+	text-align: center;
+	animation: anim 10s;
+	text-transform: capitalize;
+	color: #000;
+	animation-iteration-count: infinite;
+	margin-top: 0;
+	padding: 3rem 0 1rem 0;
+
+}
+
+.witch p{
+	padding-bottom: 2rem;
+
+}
+
+.category-witches .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #9b95a4;
+}
+
+/*****************/
+
+
+/******* Warlock ********/
+.warlock{
+	background-color: #95a499;
+	text-align: center;
+
+}
+
+.warlock h1{
+	text-align: center;
+	animation: anim 10s;
+	text-transform: capitalize;
+	color: #000;
+	animation-iteration-count: infinite;
+	margin-top: 0;
+	padding: 3rem 0 1rem 0;
+
+}
+
+
+.warlock p{
+	padding-bottom: 2rem;
+
+}
+
+
+.category-warlocks .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #95a499;
+}
+
+/**************/
+
+
+
+
+.demon {
+	background-color: #C65C5C;
+	text-align: center;
+
+
+}
+
+.demon h1{
+
+	text-align: center;
+	animation: anim 10s;
+	text-transform: capitalize;
+	color: #000;
+	animation-iteration-count: infinite;
+	margin-top: 0;
+	padding: 3rem 0 1rem 0;
+
+}
+
+.demon p{
+	padding-bottom: 2rem;
+
+}
+
+
+.shopp h1{
+	text-align: center;
+	animation: anim 10s;
+	text-transform: capitalize;
+	color: #000;
+	animation-iteration-count: infinite;
+	margin-top: 0;
+	padding: 3rem 0 1rem 0;
+
+}
+
+
+
+
+@keyframes anim {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+
+}
+
+
+
+.category-demons .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #C65C5C;
+}
+
+.shop .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #CE8655;
+}
+
+.cart .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #3F3F3F;
+}
+
+
+
+
+.product h4{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.product h5{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.nav-breadcrumbs a{
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: .80rem;
+	background-color: #191919;
+
+}
+
+.breadcrumbs  {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: .80rem;
+	background-color: #191919;
+	border: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+
+}
+
+
+
+.button {
+	background-color: #000;
+}
+
+.witch .radius {
+	background-color: #000;
+}
+
+.bat{
+	width: 50%;
+}
+
+.footer {
+    color: #fff;
+    font-size: 1rem;
+
+
+}
+
+.footer h4{
+	 color: #fff;
+ font-size: 1rem;
+ 	font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+
+
